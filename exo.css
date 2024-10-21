@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;  
+}
+nav{
+    background-color:rgb(238, 237, 237);
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position:sticky;
+}
+.nav-links{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 20px;
+}
+.nav-links li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+li{
+    padding: 29px;
+}
+
+li:hover{
+    background-color: rgb(223, 222, 222);
+    cursor: pointer;
+}
+.logo{      
+    font-size: 25px;
+    font-weight: bold;
+    padding-left: 15px;
+
+}
+.home{
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.home h1{
+    font-size: 25px;
+    font-weight: bold;
+}
+.home img{
+    width: 400px;
+}
+.aboutus{
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.blog{
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.Contact {
+    background-color: #f4f4f9;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+.Contact h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+    font-family: 'Arial', sans-serif;
+  }
+  
+.Contact label {
+    display: block;
+    margin: 10px 0 5px;
+    color: #555;
+    font-family: 'Arial', sans-serif;
+  }
+  
+.Contact input,
+.Contact textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: 'Arial', sans-serif;
+  }
+  
+.Contact button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Arial', sans-serif;
+}
+  
